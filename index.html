@@ -8,6 +8,10 @@
         font-family: Arial, Helvetica, sans-serif;
       }
 
+      body {
+        margin: 0;
+      }
+
       p {
         margin-top: 0px;
         margin-bottom: 0px;
@@ -29,7 +33,6 @@
         padding: 20px;
         border-width: 2px;
         border-style: solid;
-        border-color: rgb(255, 3, 3);
         vertical-align: top;
         margin-right: 20px;
         margin-top: 20px;
@@ -37,19 +40,125 @@
       }
 
       .reviews {
-        background-color: rgb(255, 243, 243);
+        background-color: lightgreen;
         padding: 10px;
       }
 
       .footer {
         text-align: left;
         padding: 10px;
-        background-color: rgb(255, 213, 213);
+        background-color: lightblue;
+      }
+
+      .main-img {
+        width: 100%;
+        height: 700px;
+        object-fit: cover;
       }
     </style>
   </head>
   <body>
-    <h1>Clay7Studio</h1>
+    <div
+      style="
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        height: 70px;
+        background-color: rgb(255, 255, 255);
+        padding-left: 70px;
+        padding-right: 70px;
+      "
+    >
+      <div>
+        <p style="font-size: 30px; font-weight: 600">Clay7Studio</p>
+      </div>
+      <div style="display: flex">
+        <div>
+          <button
+            style="
+              padding-left: 15px;
+              padding-right: 15px;
+              padding-top: 10px;
+              padding-bottom: 10px;
+
+              border-radius: 20px;
+              border: none;
+
+              margin-right: 10px;
+              background-color: rgb(255, 67, 95);
+              color: white;
+            "
+          >
+            Workshops
+          </button>
+        </div>
+        <div>
+          <button
+            style="
+              padding-left: 15px;
+              padding-right: 15px;
+              padding-top: 10px;
+              padding-bottom: 10px;
+
+              border-radius: 20px;
+              border: none;
+              background-color: lightpink;
+
+              margin-right: 10px;
+            "
+          >
+            Contact
+          </button>
+        </div>
+        <div>
+          <button
+            style="
+              padding-left: 15px;
+              padding-right: 15px;
+              padding-top: 10px;
+              padding-bottom: 10px;
+
+              border-radius: 20px;
+              border: none;
+              background-color: lightpink;
+            "
+          >
+            About
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <div style="position: relative">
+      <img class="main-img" src="main-background.jpg" alt="" />
+      <div style="position: absolute; top: 200px; left: 200px">
+        <p
+          style="font-size: 80px; font-weight: 600; background-color: lightgrey"
+        >
+          The Place
+        </p>
+        <p style="font-size: 50px; background-color: rgb(232, 232, 232)">
+          You Always Dreamed Of.
+        </p>
+        <p style="font-size: 20px; background-color: white; font-style: italic">
+          Craft Memories, One Masterpiece at a Time.
+        </p>
+        <div style="position: absolute; right: 0">
+          <button
+            style="
+              padding-top: 5px;
+              padding-bottom: 5px;
+              padding-left: 10px;
+              padding-right: 10px;
+            "
+          >
+            Explore Workshops
+          </button>
+        </div>
+      </div>
+    </div>
+
     <div class="reviews">
       <div class="review">
         <p class="review-text">
@@ -91,37 +200,6 @@
           Clay7studio 🌼
         </p>
         <p class="review-author">- Sampada Choudhari</p>
-      </div>
-      <div class="review">
-        <p class="review-text">
-          My friends and I decided to do a pottery class while in town and
-          stumbled upon Clay7 Studio and we are so happy we did. Would recommend
-          to anyone wanted to learn the basics of pottery and have a try or
-          creating something youself.
-        </p>
-        <p class="review-author">- Saneeka Pathak</p>
-      </div>
-      <div class="review">
-        <p class="review-text">
-          I recently attended a wheel pottery session and it was an absolute
-          blast! The guidance provided by the instructor was exceptional, making
-          it easy for beginners to follow along and get the hang of things
-          quickly. The hands-on experience was both challenging and rewarding,
-          and the atmosphere was filled with creativity and excitement. It's a
-          perfect blend of learning and fun, and I would highly recommend it to
-          anyone looking to try something new. Whether you're a seasoned artist
-          or a complete novice, this is a must-do experience that you'll
-          thoroughly enjoy!
-        </p>
-        <p class="review-author">- Priyanka Moze</p>
-      </div>
-      <div class="review">
-        <p class="review-text">
-          Such a wonderful experience. The session was well-organized,
-          informative, and incredibly enjoyable. A special thanks to Deepa for
-          her exceptional guidance and patience.
-        </p>
-        <p class="review-author">- Joseline Pawar</p>
       </div>
     </div>
     <div class="footer">

@@ -40,18 +40,17 @@
         background-color: rgb(234, 234, 234);
       }
 
-      .text-overlay {
-        position: absolute;
-        height: 20%;
-        left: 0;
-        bottom: 0;
-        width: 100%;
-        background-color: rgba(255, 255, 255, 0.332);
-        text-align: center;
+      .bg-light-brown {
+        background-color: #fbf9f6;
+        /* color: white; */
+      }
+
+      .bg-brown {
+        background-color: #f6f1ea;
       }
     </style>
   </head>
-  <body>
+  <body class="bg-light-brown">
     <div class="d-flex justify-content-center p-0 m-0 border-bottom">
       <nav class="navbar navbar-expand-lg m-0 p-0">
         <div class="container-fluid d-flex">
@@ -100,72 +99,52 @@
     </div>
 
     <div class="container">
-      <div class="row gx-0">
-        <div
-          class="col-md-6 d-none d-md-block"
-          style="height: 90vh; position: relative"
-        >
-          <img
-            src="imgs/gallery-1.jpg"
-            style="width: 100%; height: 100%; object-fit: cover"
-          />
+      <div class="row mt-4 text-center">
+        <p class="fs-2 fw-semibold my-0">Pottery Trainings At Clay7Studio</p>
+      </div>
 
-          <div class="text-overlay p-5">
-            <button class="btn btn-outline-light rounded-0 fs-3">
-              Register Now
-            </button>
-          </div>
-        </div>
-        <div
-          class="col-md-6 border p-2 p-md-4"
-          style="max-height: 90vh; overflow-y: auto"
-        >
-          <p class="fs-3">Pet Prints Event</p>
-          <p class="fst-italic">
-            The workshop designed for your dear pet to make a permanent memory
-            with him on ceramic pottery!
-          </p>
-          <p class="border bg-light p-3">
-            Print the unique paw print of your dear pet on ceramic surface. We
-            have delicious food arranged for you and your dear pet. And don't
-            worry this is completly safe for your pet!
-          </p>
-
-          <div class="bg-light-subtle border p-3 my-3">
-            <p>What's there for you and your dear in the package:</p>
-            <ul>
-              <li>High Quality Ceramic Paw Print</li>
-              <li>Delicious Food for your dear</li>
-              <li>Tasty Food for you alongside chilled drink</li>
-              <li>Complementy Keychain</li>
-            </ul>
-          </div>
-
-          <div class="bg-light-subtle border p-3 my-3">
-            <p class="font-monospace">Hey, it seems really iteresting one!</p>
-            <p class="p-0 m-0">What's the date and available slots?</p>
-            <p class="p-0 m-0">27 October</p>
-            <p>8AM | 12PM | 3PM</p>
-
-            <p class="p-0 m-0">But where we have to come with our doggy?</p>
-            <p>
-              Clay7Studio, Joshi Rd, Plot 4/8, SriKrupa Bungalow, Diagonal
-              opposite Lagu Bandhu Jewellers, Shankarrao Kirloskar Marg, off
-              Karve Road, Erandwane, Pune, Maharashtra 411004
+      <div class="row mx-2 justify-content-center">
+        <div class="col-md-8 p-4 order-md-1">
+          <div class="text-center">
+            <p class="fs-5">
+              Get better at pottery with consistent training<br />
+              We have designed extensive pottery certificate courses just for
+              you!
             </p>
-            <p>
-              <a href="#">Link to the studio</a>
-            </p>
+
+            <div class="my-3 p-3 bg-brown">
+              <p class="fs-3">Beginner</p>
+              <p class="">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Exercitationem neque asperiores eum reprehenderit ratione ut
+                maxime beatae! Hic atque cum voluptatem distinctio, voluptatum
+                fuga, numquam inventore assumenda ipsum delectus quaerat.
+              </p>
+              <button class="btn btn-outline-dark rounded-0">Know More</button>
+            </div>
+
+            <div class="my-3 bg-brown p-3">
+              <p class="fs-3">Intermediate</p>
+              <p class="">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Exercitationem neque asperiores eum reprehenderit ratione ut
+                maxime beatae! Hic atque cum voluptatem distinctio, voluptatum
+                fuga, numquam inventore assumenda ipsum delectus quaerat.
+              </p>
+              <button class="btn btn-outline-dark rounded-0">Know More</button>
+            </div>
+
+            <div class="bg-brown p-3">
+              <p class="fs-3">Advanced</p>
+              <p class="">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Exercitationem neque asperiores eum reprehenderit ratione ut
+                maxime beatae! Hic atque cum voluptatem distinctio, voluptatum
+                fuga, numquam inventore assumenda ipsum delectus quaerat.
+              </p>
+              <button class="btn btn-outline-dark rounded-0">Know More</button>
+            </div>
           </div>
-
-          <p class="fw-bold">What you're waiting for? Register NOWWWWWW!</p>
-
-          <button
-            class="btn btn-outline-dark rounded-0 d-md-none"
-            style="width: 100%"
-          >
-            Register Now
-          </button>
         </div>
       </div>
     </div>

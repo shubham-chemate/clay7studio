@@ -37,7 +37,10 @@
       }
 
       .header-option:hover {
-        background-color: rgb(234, 234, 234);
+        /* background-color: rgb(234, 234, 234); */
+        border-bottom-style: solid;
+        border-bottom-color: black;
+        border-bottom-width: 2px;
       }
 
       .bg-light-brown {
@@ -47,12 +50,13 @@
     </style>
   </head>
   <body>
-    <!-- <div class="alert alert-primary text-center fs-5 m-0" role="alert">
+    <div class="alert alert-warning text-center m-0 p-1 rounded-0" role="alert">
       Hey! Check this new workshop at Clay7studio occuring on 20-Oct at 4:00 PM
-    </div> -->
+      <a href="./events.html">Check Now</a>
+    </div>
 
     <div class="d-flex justify-content-center p-0 m-0 border-bottom">
-      <nav class="navbar navbar-expand-lg m-0 p-0">
+      <nav class="navbar navbar-expand-lg m-0 p-3">
         <div class="container-fluid d-flex">
           <a
             class="navbar-brand fw-bold p-0"
@@ -81,7 +85,7 @@
                 >WORKSHOPS</a
               >
               <a class="nav-link header-option" href="./classes.html"
-                >CLASSES</a
+                >COURSES</a
               >
               <a class="nav-link header-option" href="./coming-soon.html"
                 >SHOP</a
@@ -151,253 +155,120 @@
       style="
         display: flex;
         justify-content: left;
-        align-items: center;
 
         text-align: left;
-        background-color: rgb(149, 192, 247);
 
         position: relative;
       "
     >
       <img
-        style="width: 100%; object-fit: cover; height: 95vh"
+        style="width: 100%; object-fit: cover; height: 80vh"
         src="imgs/background-wheel-and-love.jpg"
       />
 
-      <div
-        style="background-color: rgba(255, 255, 255, 0.386); position: absolute"
-        class="p-3 p-md-5 mx-5"
-      >
-        <div class="fs-1 fw-bold">The Place</div>
-        <div class="fs-2">You Always Dreamed Of.</div>
-        <div class="fs-5 mb-4">Craft Memories, One Masterpiece at a Time.</div>
-        <button
-          type="button"
-          class="btn fs-5 rounded-0"
-          style="background-color: #fffbe9"
-        >
-          Explore Workshops
-        </button>
+      <div style="position: absolute; bottom: 15%" class="p-4 p-md-3 mx-5">
+        <p class="fs-3 text-light">Ceramic Pottery</p>
+        <p class="text-light">Craft Memories, One Masterpiece at a Time.</p>
+        <button class="btn btn-light rounded-0">Explore Workshops</button>
       </div>
     </div>
 
-    <div class="container p-3 p-md-5">
-      <div class="fs-1 text-center mb-3 mb-md-5">Our Services</div>
+    <div class="container">
+      <div class="fs-2 text-center my-5">Our Services</div>
+      <div class="row my-4 justify-content-center">
+        <div class="col-10" style="position: relative">
+          <img
+            src="imgs/gallery-col-1.webp"
+            class="img-fluid"
+            style="width: 100%; height: 30vh; object-fit: cover"
+          />
 
-      <div class="row mb-3 mb-md-5 justify-content-around">
-        <div class="col-md-10 p-0">
-          <div class="container">
-            <div class="row">
-              <div class="col-md-4 p-0 m-0">
-                <img
-                  src="imgs/gallery-col-1.webp"
-                  class="img-fluid"
-                  style="width: 100%; height: 100%; object-fit: cover"
-                />
-              </div>
-              <div class="col-md-8 bg-light-brown p-4 p-md-4">
-                <p class="fs-2">Workshops</p>
-                <p class="fs-5">
-                  Step into a world of creativity and relaxation with our
-                  hands-on pottery workshops. Get your hands dirty, with clay
-                  and play with a wheel like its your own body part.
-                </p>
-                <button
-                  type="button"
-                  class="btn btn-outline-dark fs-5 rounded-0"
-                >
-                  Register
-                </button>
-              </div>
-            </div>
+          <div style="position: absolute; bottom: 15%" class="p-4 p-md-3 mx-5">
+            <p class="fs-4 text-light fw-bold">Workshops</p>
+            <button class="btn btn-outline-light rounded-0">Register</button>
           </div>
         </div>
       </div>
+      <div class="row my-4 justify-content-center">
+        <div class="col-10" style="position: relative">
+          <img
+            src="imgs/gallery-col.webp"
+            class="img-fluid"
+            style="width: 100%; height: 30vh; object-fit: cover"
+          />
 
-      <div class="row mb-3 mb-md-5 justify-content-around">
-        <div class="col-md-10 p-0">
-          <div class="container">
-            <div class="row">
-              <div class="col-md-4 p-0 m-0">
-                <img
-                  src="imgs/gallery-col.webp"
-                  class="img-fluid"
-                  style="width: 100%; height: 100%; object-fit: cover"
-                />
-              </div>
-              <div class="col-md-8 bg-light-brown p-4 p-md-4">
-                <p class="fs-2">Classes</p>
-                <p class="fs-5">
-                  Want to master your pottery skills? You are at the right
-                  place. With classes you can explore the art of pottery in more
-                  depth by creating complex pottery arts! Get ready for upcoming
-                  batch and make something great out of it
-                </p>
-                <button
-                  type="button"
-                  class="btn btn-outline-dark fs-5 rounded-0"
-                >
-                  View Batches
-                </button>
-              </div>
-            </div>
+          <div style="position: absolute; bottom: 15%" class="p-4 p-md-3 mx-5">
+            <p class="fs-4 text-light fw-bold">Courses</p>
+            <button class="btn btn-outline-light rounded-0">Explore</button>
           </div>
         </div>
       </div>
+      <div class="row my-4 justify-content-center">
+        <div class="col-10" style="position: relative">
+          <img
+            src="imgs/shop-1.jpg"
+            class="img-fluid"
+            style="width: 100%; height: 30vh; object-fit: cover"
+          />
 
-      <div class="row mb-3 mb-md-5 justify-content-around">
-        <div class="col-md-10 p-0">
-          <div class="container">
-            <div class="row">
-              <div class="col-md-4 p-0 m-0">
-                <img
-                  src="imgs/shop-1.jpg"
-                  class="img-fluid"
-                  style="width: 100%; height: 100%; object-fit: cover"
-                />
-              </div>
-              <div class="col-md-8 bg-light-brown p-4 p-md-4">
-                <p class="fs-2">Shop</p>
-                <p class="fs-5">
-                  You want some great pottery art in your collection? OR Want to
-                  sip your next cup of Coffee with beautiful pottery cup, here
-                  you go. We have amazing range for products to suits your
-                  artistic personality. Don't wait, explore them now!!
-                </p>
-                <button
-                  type="button"
-                  class="btn btn-outline-dark fs-5 rounded-0"
-                >
-                  Shop Now
-                </button>
-              </div>
-            </div>
+          <div style="position: absolute; bottom: 15%" class="p-4 p-md-3 mx-5">
+            <p class="fs-4 text-light fw-bold">Shop</p>
+            <button class="btn btn-outline-light rounded-0">Shop Now</button>
           </div>
         </div>
       </div>
+      <div class="row my-4 justify-content-center">
+        <div class="col-10" style="position: relative">
+          <img
+            src="imgs/custom-2.jpg"
+            class="img-fluid"
+            style="width: 100%; height: 30vh; object-fit: cover"
+          />
 
-      <div class="row mb-3 mb-md-5 justify-content-around">
-        <div class="col-md-10 p-0">
-          <div class="container">
-            <div class="row">
-              <div class="col-md-4 p-0 m-0">
-                <img
-                  src="imgs/custom-1.jpg"
-                  class="img-fluid"
-                  style="width: 100%; height: 100%; object-fit: cover"
-                />
-              </div>
-              <div class="col-md-8 bg-light-brown p-4 p-md-4">
-                <p class="fs-2">Custom Art</p>
-                <p class="fs-5">
-                  You have an idea in mind, want to make object out of it. Let
-                  us know and we will make a perfect pottery art for you.
-                  Customized according to your needs, wants, style and vibe!
-                  Let's connect now.
-                </p>
-                <button
-                  type="button"
-                  class="btn btn-outline-dark fs-5 rounded-0"
-                >
-                  Configure Yours
-                </button>
-              </div>
-            </div>
+          <div style="position: absolute; bottom: 15%" class="p-4 p-md-3 mx-5">
+            <p class="fs-4 text-light fw-bold">Custom Art</p>
+            <button class="btn btn-outline-light rounded-0">
+              Configure Yours
+            </button>
           </div>
         </div>
       </div>
     </div>
 
-    <div class="container p-md-5">
-      <div class="fs-1 text-center">Time At Clay7Studio</div>
-      <p class="fs-5 text-center mb-5">
-        At Clay7Studio we thrive to get best for our customer, we value their
-        time and make sure that every minute they spend at our studio transforms
-        into a memory!
-      </p>
-
-      <div class="row gx-md-4">
-        <div class="col-md-4">
-          <div
-            class="rounded p-3 p-md-5 mb-4"
-            style="
-              box-shadow: 2px 2px 5px 1px rgb(224, 224, 224);
-              background-color: #fae0d4;
-            "
-          >
-            <div class="m-2">
-              <img
-                style="width: 50px"
-                src="icons/quotes.png"
-                alt=""
-                srcset=""
-              />
-            </div>
-            <p class="fs-5 lh-sm">
-              An amazing stress buster and weekend chill. We had a 2hr workshop
-              session at Clay7Studio and we enjoyed our time like nothing else.
-              We had a clay, cofee and cretivity. The instructor is pretty
-              amazing, she was too much friendy. It was a feeling of home away
-              from our home.
-            </p>
-            <p class="fst-italic fw-normal fs-5">- Shruti Saxena &#9825;</p>
-          </div>
+    <div class="container mb-5">
+      <div class="fs-2 text-center my-5">Time At Clay7Studio</div>
+      <div class="row gx-5">
+        <div class="col-md-4 my-3">
+          <p class="px-3">
+            An amazing stress buster and weekend chill. We had a 2hr workshop
+            session at Clay7Studio and we enjoyed our time like nothing else. We
+            had a clay, cofee and cretivity. The instructor is pretty amazing,
+            she was too much friendy. It was a feeling of home away from our
+            home.
+          </p>
+          <p class="text-end px-3">Shruti Saxena</p>
         </div>
-
-        <div class="col-md-4">
-          <div
-            class="rounded p-3 p-md-5 mb-4"
-            style="
-              box-shadow: 2px 2px 5px 1px rgb(224, 224, 224);
-              background-color: #fff6eb;
-            "
-          >
-            <div class="m-2">
-              <img
-                style="width: 50px"
-                src="icons/quotes.png"
-                alt=""
-                srcset=""
-              />
-            </div>
-            <p class="fs-5 lh-sm">
-              I attended the handmade pottery workshop of two hours with my
-              boyfriend and had such a fun time. The teacher was very sweet, she
-              helped wherever necessary but also let us do our own thing. Would
-              love it if we could also use glazes instead of paints on our
-              handmade pottery. A few of the colours I wanted within the paints
-              were out of stock too so we worked with a very limited palette.
-              That being said, the overall output has been very good, definitely
-              recommend it :D
-            </p>
-            <p class="fst-italic fw-normal fs-5">- Kashish Gupta &#9825;</p>
-          </div>
+        <div class="col-md-4 my-3">
+          <p class="px-3">
+            I attended the handmade pottery workshop of two hours with my
+            boyfriend and had such a fun time. The teacher was very sweet, she
+            helped wherever necessary but also let us do our own thing. Would
+            love it if we could also use glazes instead of paints on our
+            handmade pottery. A few of the colours I wanted within the paints
+            were out of stock too so we worked with a very limited palette. That
+            being said, the overall output has been very good, definitely
+            recommend it.
+          </p>
+          <p class="text-end px-3">Kashish Gupta</p>
         </div>
-
-        <div class="col-md-4">
-          <div
-            class="rounded p-3 p-md-5 mb-4"
-            style="
-              box-shadow: 2px 2px 5px 1px rgb(224, 224, 224);
-              background-color: #f1dec9;
-            "
-          >
-            <div class="m-2">
-              <img
-                style="width: 50px"
-                src="icons/quotes.png"
-                alt=""
-                srcset=""
-              />
-            </div>
-            <p class="fs-5 lh-sm">
-              Made two wonderful pieces on a pottery wheel. This place has an
-              amazing vibe and the staff is helpful and cooperative. They
-              patiently helped me throughout and corrected me whenever required.
-              Thanks Clay7studio 🌼
-            </p>
-            <p class="fst-italic fw-normal fs-5">- Sampada Choudhari &#9825;</p>
-          </div>
+        <div class="col-md-4 my-3">
+          <p class="px-3">
+            Made two wonderful pieces on a pottery wheel. This place has an
+            amazing vibe and the staff is helpful and cooperative. They
+            patiently helped me throughout and corrected me whenever required.
+            Thanks Clay7studio
+          </p>
+          <p class="text-end px-3">Sampada Choudhari</p>
         </div>
       </div>
     </div>

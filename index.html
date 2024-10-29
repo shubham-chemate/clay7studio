@@ -249,8 +249,7 @@
       </div>
 
       <div
-        class="d-flex align-items-center text-light"
-        id="slideLeft"
+        class="d-none d-md-block d-flex align-items-center text-light slideLeft"
         style="
           position: absolute;
           left: 2%;
@@ -263,8 +262,7 @@
       </div>
 
       <div
-        class="d-flex align-items-center text-light"
-        id="slideRight"
+        class="d-none d-md-block d-flex align-items-center text-light slideRight"
         style="
           position: absolute;
           right: 2%;
@@ -459,8 +457,7 @@
       </div>
 
       <div
-        class="d-flex align-items-center text-light"
-        id="slideLeft"
+        class="d-flex align-items-center text-light slideLeft"
         style="
           position: absolute;
           left: 2%;
@@ -473,8 +470,7 @@
       </div>
 
       <div
-        class="d-flex align-items-center text-light"
-        id="slideRight"
+        class="d-flex align-items-center text-light slideRight"
         style="
           position: absolute;
           right: 2%;
@@ -582,17 +578,17 @@
     <script>
       const scrollAmount = 450;
 
-      const buttonRight = document.getElementById("slideRight");
-      const buttonLeft = document.getElementById("slideLeft");
+      const buttonRight = document.querySelector("slideRight");
+      const buttonLeft = document.querySelector("slideLeft");
 
       buttonRight.onclick = function () {
-        document.getElementById("hz-scrollable-row").scrollBy({
+        document.querySelector("hz-scrollable-row").scrollBy({
           left: scrollAmount,
           behavior: "smooth",
         });
       };
       buttonLeft.onclick = function () {
-        document.getElementById("hz-scrollable-row").scrollBy({
+        document.querySelector("hz-scrollable-row").scrollBy({
           left: -scrollAmount,
           behavior: "smooth",
         });

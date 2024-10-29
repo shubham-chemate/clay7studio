@@ -200,7 +200,7 @@
       <div class="fs-2 text-center my-5">Shop</div>
       <div
         class="row flex-nowrap overflow-auto rm-hz-scrollbar"
-        id="hz-scrollable-row"
+        id="hz-scrollable-row-shop"
       >
         <div class="col-md-3 p-0 mx-1 text-center">
           <img
@@ -250,7 +250,7 @@
 
       <div
         class="d-flex align-items-center text-light"
-        id="slideLeft"
+        id="slideLeftShop"
         style="
           position: absolute;
           left: 2%;
@@ -264,7 +264,7 @@
 
       <div
         class="d-flex align-items-center text-light"
-        id="slideRight"
+        id="slideRightShop"
         style="
           position: absolute;
           right: 2%;
@@ -582,17 +582,17 @@
     <script>
       const scrollAmount = 450;
 
-      const buttonRight = document.getElementById("slideRight");
-      const buttonLeft = document.getElementById("slideLeft");
+      const buttonRightShop = document.getElementById("slideRightShop");
+      const buttonLeftShop = document.getElementById("slideLeftShop");
 
-      buttonRight.onclick = function () {
-        document.getElementById("hz-scrollable-row").scrollBy({
+      buttonRightShop.onclick = function () {
+        document.getElementById("hz-scrollable-row-shop").scrollBy({
           left: scrollAmount,
           behavior: "smooth",
         });
       };
-      buttonLeft.onclick = function () {
-        document.getElementById("hz-scrollable-row").scrollBy({
+      buttonLeftShop.onclick = function () {
+        document.getElementById("hz-scrollable-row-shop").scrollBy({
           left: -scrollAmount,
           behavior: "smooth",
         });

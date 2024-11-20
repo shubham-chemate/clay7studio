@@ -62,7 +62,7 @@
 
       /* Shrinked navbar when scrolled */
       .navbar-scrolled {
-        height: 60px !important; /* Adjust height */
+        height: 75px !important; /* Adjust height */
         padding-top: 5px !important;
         padding-bottom: 5px !important;
         border-bottom: 1px solid #d6c0b3;
@@ -85,35 +85,56 @@
         class="container-fluid d-flex justify-content-center align-items-center"
       >
         <button
-          class="navbar-toggler me-5"
+          class="navbar-toggler"
           type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNavAltMarkup"
-          aria-controls="navbarNavAltMarkup"
-          aria-expanded="false"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasNavbar"
+          aria-controls="offcanvasNavbar"
           aria-label="Toggle navigation"
         >
-          <span class="material-symbols-outlined"> menu </span>
+          <span class="navbar-toggler-icon"></span>
         </button>
         <div class="d-flex justify-content-around align-items-center">
           <a class="navbar-brand fw-bold" href="./index.html">
             <img src="imgs/logo-no-bg.png" width="180" height="60" />
           </a>
-          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
-              <a
-                class="nav-link header-option"
-                style="color: rgb(255, 84, 49)"
-                href="./workshops.html"
-                >WORKSHOPS</a
-              >
-              <a class="nav-link header-option" href="./events.html">EVENTS</a>
-              <a class="nav-link header-option" href="./coming-soon.html"
-                >SHOP</a
-              >
-              <a class="nav-link header-option" href="./coming-soon.html"
-                >ABOUT</a
-              >
+          <div
+            class="offcanvas offcanvas-start"
+            tabindex="-1"
+            id="offcanvasNavbar"
+            aria-labelledby="offcanvasNavbarLabel"
+          >
+            <div class="offcanvas-body">
+              <div class="offcanvas-header">
+                <!-- <h5 class="offcanvas-title" id="offcanvasNavbarLabel">
+                  Offcanvas
+                </h5> -->
+                <button
+                  type="button"
+                  class="btn-close"
+                  data-bs-dismiss="offcanvas"
+                  aria-label="Close"
+                ></button>
+              </div>
+              <div class="offcanvas-body">
+                <div class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                  <a
+                    class="nav-link header-option"
+                    style="color: rgb(255, 84, 49)"
+                    href="./workshops.html"
+                    >WORKSHOPS</a
+                  >
+                  <a class="nav-link active header-option" href="./events.html"
+                    >EVENTS</a
+                  >
+                  <a class="nav-link header-option" href="./coming-soon.html"
+                    >SHOP</a
+                  >
+                  <a class="nav-link header-option" href="./coming-soon.html"
+                    >ABOUT</a
+                  >
+                </div>
+              </div>
             </div>
           </div>
         </div>

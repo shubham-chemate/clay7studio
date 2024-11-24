@@ -8,11 +8,11 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Qwitcher+Grypen:wght@400;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
       rel="stylesheet"
     />
     <link
-      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Raleway&display=swap"
       rel="stylesheet"
     />
     <link
@@ -75,10 +75,10 @@
 
       /* Shrinked navbar when scrolled */
       .navbar-scrolled {
-        height: 50px !important; /* Adjust height */
+        /* height: 50px !important;
         padding-top: 5px !important;
         padding-bottom: 5px !important;
-        border-bottom: 1px solid #d6c0b3;
+        border-bottom: 1px solid #d6c0b3; */
       }
 
       .nav-logo {
@@ -88,16 +88,16 @@
 
       /* logo when scrolled */
       .logo-scrolled {
-        height: 40px;
-        width: 120px;
+        /* height: 40px;
+        width: 120px; */
       }
     </style>
   </head>
   <body>
-    <div class="alert alert-warning text-center m-0 p-1 rounded-0" role="alert">
+    <!-- <div class="alert alert-warning text-center m-0 p-1 rounded-0" role="alert">
       Hey! Check this workshop at Clay7studio on 20-Oct at 4:00 PM
       <a href="./events.html">Check Now</a>
-    </div>
+    </div> -->
 
     <nav
       class="navbar navbar-expand-lg sticky-top m-0 p-3"
@@ -232,6 +232,91 @@
         <p class="fs-3 text-light">Ceramic Pottery</p>
         <p class="text-light">Craft Memories, One Masterpiece at a Time.</p>
         <button class="btn btn-light rounded-0">Explore Workshops</button>
+      </div>
+    </div>
+
+    <div class="container p-5 bg-light">
+      <div class="fs-1 mb-5">Choose Your Workshop</div>
+      <div class="row p-0 m-0 my-3">
+        <div
+          class="col-5"
+          style="
+            background-image: url(imgs/hand-pottery.jpg);
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            height: 100;
+          "
+        ></div>
+        <div class="col p-4">
+          <div class="fs-4">Hand Building for Beginners</div>
+          <div>
+            Unleash your creativity and get your hands messy in our immersive
+            pottery workshop!
+          </div>
+          <div class="mt-4 text-secondary">2 Hr</div>
+          <div class="text-secondary">INR 1,000/-</div>
+          <!-- <div class="text-decoration-underline fst-italic">Read More</div> -->
+        </div>
+        <div class="col-1 d-flex align-items-center justify-content-center">
+          <span class="material-symbols-outlined fs-1 text-secondary">
+            arrow_forward_ios
+          </span>
+        </div>
+      </div>
+      <div class="row p-0 m-0 my-3">
+        <div
+          class="col-5"
+          style="
+            background-image: url(imgs/ceramic-art.jpg);
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            height: 100;
+          "
+        ></div>
+        <div class="col p-4">
+          <div class="fs-4">Potters Wheel Experience for Beginners</div>
+          <div>
+            Shape your creativity on the potter's wheel and craft timeless art
+            with your hands!
+          </div>
+          <div class="mt-4 text-secondary">2 Hr</div>
+          <div class="text-secondary">INR 1,500/-</div>
+        </div>
+        <div class="col-1 d-flex align-items-center justify-content-center">
+          <span class="material-symbols-outlined fs-1 text-secondary">
+            arrow_forward_ios
+          </span>
+        </div>
+      </div>
+      <div class="row p-0 m-0 my-3">
+        <div
+          class="col-5"
+          style="
+            background-image: url(imgs/workshops.jpg);
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            height: 100;
+          "
+        ></div>
+        <div class="col p-4">
+          <div class="fs-4">
+            Hand Building and Potters Wheel Experience for Beginners
+          </div>
+          <div>
+            Shape your creativity on the potter's wheel and craft timeless art
+            with your hands!
+          </div>
+          <div class="mt-4 text-secondary">4 Hr</div>
+          <div class="text-secondary">INR 2,500/-</div>
+        </div>
+        <div class="col-1 d-flex align-items-center justify-content-center">
+          <span class="material-symbols-outlined fs-1 text-secondary">
+            arrow_forward_ios
+          </span>
+        </div>
       </div>
     </div>
 
@@ -553,79 +638,43 @@
       </div>
     </div>
 
-    <div style="background-color: #d6c0b3">
-      <div class="container-fluid p-5">
-        <div class="row justify-content-around">
-          <div class="col-md-2 d-none d-md-block">
-            <img
-              src="imgs/logo-no-bg.png"
-              class="img-fluid"
-              style="width: 100%"
-            />
+    <div class="container-fluid p-0 m-0 bg-light">
+      <div class="row p-5">
+        <div class="col-2 mx-3">
+          <img
+            src="imgs/logo-no-bg.png"
+            class="img-fluid"
+            style="width: 100%"
+          />
+        </div>
+        <div class="col mx-3">
+          <div class="fs-5 my-3" style="font-family: 'Playfair Display', serif">
+            Address
           </div>
-          <div class="col-md-2">
-            <p class="fs-5">About</p>
-            <ul class="list-unstyled">
-              <li>Our Story</li>
-              <li>Team</li>
-              <li>Careers</li>
-              <li>Contact Us</li>
-              <li>Terms of Service</li>
-              <li>Refund Policy</li>
-            </ul>
+          <div style="font-family: 'Raleway', sans-serif">
+            Joshi Rd, Plot 4/8, SriKrupa Bungalow, Diagonal opposite Lagu Bandhu
+            Jewellers, Shankarrao Kirloskar Marg, off Karve Road, Erandwane,
+            Pune, Maharashtra, 411004
           </div>
-          <div class="col-md-2">
-            <p class="fs-5">Products</p>
-            <ul class="list-unstyled">
-              <li>Workshops</li>
-              <li>Gifting</li>
-              <li>Pottery Art</li>
-              <li>Events</li>
-              <li>Bulk Orders</li>
-              <li>Custom Orders</li>
-            </ul>
+          <div class="my-3" style="font-family: 'Raleway', sans-serif">
+            Find Us on Maps: <a href="#">link</a>
           </div>
-          <div class="col-md-2">
-            <p class="fs-5">Help</p>
-            <ul class="list-unstyled">
-              <li>FAQs</li>
-              <li>Privacy Policy</li>
-              <li>Term and Conditions</li>
-              <li>Shipping Policy</li>
-              <li>Refund Policy</li>
-            </ul>
+        </div>
+        <div class="col mx-3">
+          <div class="fs-5 my-3">Opening Hours</div>
+          <div>Tue to Fri - 10am to 6pm</div>
+          <div>Sat to Sun - 6pm to 8pm</div>
+          <div>Holiday on Monday</div>
+        </div>
+        <div class="col mx-3">
+          <div class="fs-5 my-3">Contact</div>
+          <div class="d-flex align-items-center">
+            <span class="material-symbols-outlined me-2"> call </span
+            >contact@clay7studio.co.in
           </div>
-          <div class="col-md-3">
-            <p class="fs-5">Contact</p>
-            <ul class="list-unstyled">
-              <li class="d-flex align-items-center">
-                <span class="material-symbols-outlined me-2"> call </span>+91
-                9309506594
-              </li>
-              <li class="d-flex align-items-center">
-                <span class="material-symbols-outlined me-2"> mail </span>
-                contact@clay7studio.co.in
-              </li>
-            </ul>
-
-            <ul class="list-unstyled">
-              <li>Opening Hours:</li>
-              <li>Tue to Fri - 10am to 6pm</li>
-              <li>Sat to Sun - 6pm to 8pm</li>
-            </ul>
-
-            <ul class="list-unstyled">
-              <li>Address:</li>
-              <li class="lh-sm">
-                Joshi Rd, Plot 4/8, SriKrupa Bungalow, Diagonal opposite Lagu
-                Bandhu Jewellers, Shankarrao Kirloskar Marg, off Karve Road,
-                Erandwane, Pune, Maharashtra, 411004
-              </li>
-            </ul>
-
-            <ul class="list-unstyled">
-              <li>Find Us on Maps: <a href="#">link</a></li>
-            </ul>
+          <div class="d-flex align-items-center">
+            <span class="material-symbols-outlined me-2"> mail </span>+91
+            9309506594
           </div>
         </div>
       </div>
@@ -634,7 +683,9 @@
     <div class="container-fluid p-5">
       <div class="row">
         <div class="col text-center">
-          <p class="p-0 m-0">© Clay7Studio. All Rights Reserved.</p>
+          <p style="font-family: 'Raleway', sans-serif" class="p-0 m-0">
+            © Clay7Studio. All Rights Reserved.
+          </p>
         </div>
       </div>
     </div>

@@ -48,6 +48,18 @@
         height: 60px;
         width: 180px;
       }
+
+      .workshop-img {
+        width: 100%;
+        height: 20vh;
+        object-fit: cover;
+      }
+
+      @media (min-width: 992px) {
+        .workshop-img {
+          height: 70vh;
+        }
+      }
     </style>
   </head>
   <body>
@@ -205,66 +217,56 @@
         Choose Your Workshop
       </div>
       <div class="row p-0 m-0 my-3">
-        <div class="col">
-          <img
-            src="imgs/hand-pottery.jpg"
-            class="img-fluid"
-            style="width: 100%; height: 70vh; object-fit: cover"
-          />
-          <div class="fs-3 mt-5" style="font-family: 'Playfair Display', serif">
+        <div class="col-12 col-md-4 p-0 m-0 p-md-3 mb-3 m-md-0">
+          <img src="imgs/hand-pottery.jpg" class="img-fluid workshop-img" />
+          <div
+            class="fs-3 mt-md-5 mt-3"
+            style="font-family: 'Playfair Display', serif"
+          >
             Hand Building for Beginners
           </div>
-          <div class="mt-3 mb-5">
+          <div class="my-3 my-md-5">
             Unleash your creativity in our immersive pottery workshop!
           </div>
-          <div class="my-5">
+          <div class="my-md-5 my-3">
             <div class="fs-5">2 Hr</div>
             <div class="">INR 1,000/-</div>
           </div>
           <a href="./workshop.html" class="text-dark">Read More</a>
         </div>
-        <div class="col">
-          <img
-            src="imgs/ceramic-art.jpg"
-            class="img-fluid"
-            style="width: 100%; height: 70vh; object-fit: cover"
-          />
+        <div class="col-12 col-md-4 p-0 m-0 p-md-3 mb-3 m-md-0">
+          <img src="imgs/ceramic-art.jpg" class="img-fluid workshop-img" />
           <div
-            class="fs-3 mt-5 lh-sm"
+            class="fs-3 mt-md-5 mt-3"
             style="font-family: 'Playfair Display', serif"
           >
             Potters Wheel Experience for Beginners
           </div>
-          <div class="mt-3 mb-5">
+          <div class="my-3 my-md-5">
             Shape your clay on the potter's wheel and craft timeless art with
             your hands!
           </div>
-          <div class="my-5">
+          <div class="my-md-5 my-3">
             <div class="fs-5">2 Hr</div>
-            <div class="">INR 1,500/-</div>
+            <div class="">INR 1,000/-</div>
           </div>
           <a href="./workshop.html" class="text-dark">Read More</a>
         </div>
-
-        <div class="col">
-          <img
-            src="imgs/workshops.jpg"
-            class="img-fluid"
-            style="width: 100%; height: 70vh; object-fit: cover"
-          />
+        <div class="col-12 col-md-4 p-0 m-0 p-md-3 mb-3 m-md-0">
+          <img src="imgs/hand-pottery.jpg" class="img-fluid workshop-img" />
           <div
-            class="fs-3 mt-5 lh-sm"
+            class="fs-3 mt-md-5 mt-3"
             style="font-family: 'Playfair Display', serif"
           >
             Hand Building and Potters Wheel Experience for Beginners
           </div>
-          <div class="mt-3 mb-5">
+          <div class="my-3 my-md-5">
             Experience both hand buidling and potter's wheel in a single
             workshop, let your hand flow in clay arts!
           </div>
-          <div class="my-5">
-            <div class="fs-5">4 Hr</div>
-            <div class="">INR 2,500/-</div>
+          <div class="my-md-5 my-3">
+            <div class="fs-5">2 Hr</div>
+            <div class="">INR 1,000/-</div>
           </div>
           <a href="./workshop.html" class="text-dark">Read More</a>
         </div>
@@ -276,29 +278,29 @@
         Get Creative at Clay7Studio
       </div>
       <div class="mb-5">Play with pottery art in wide variety of ways!</div>
-      <div class="row mb-5">
-        <div class="col-3 m-0 p-1">
+      <div class="row mb-md-5 mb-3">
+        <div class="col col-lg-3 m-0 p-md-1">
           <img
             src="imgs/workshops.jpg"
             style="object-fit: cover; height: 40vh; width: 100%"
           />
           <div class="mt-3">Clay Moulding</div>
         </div>
-        <div class="col-3 m-0 p-1">
+        <div class="col-3 m-0 p-1 d-none d-lg-block">
           <img
             src="imgs/workshops.jpg"
             style="object-fit: cover; height: 40vh; width: 100%"
           />
           <div class="mt-3">Mug Painting</div>
         </div>
-        <div class="col-3 m-0 p-1">
+        <div class="col-3 m-0 p-1 d-none d-lg-block">
           <img
             src="imgs/workshops.jpg"
             style="object-fit: cover; height: 40vh; width: 100%"
           />
           <div class="mt-3">Bowl Painting</div>
         </div>
-        <div class="col-3 m-0 p-1">
+        <div class="col-3 m-0 p-1 d-none d-lg-block">
           <img
             src="imgs/workshops.jpg"
             style="object-fit: cover; height: 40vh; width: 100%"
@@ -310,11 +312,11 @@
     </div>
 
     <div class="container p-5 bg-light">
-      <div class="fs-1" style="font-family: 'Playfair Display', serif">
+      <div class="fs-1 mb-3" style="font-family: 'Playfair Display', serif">
         Clay7 Experience
       </div>
       <div class="row">
-        <div class="col p-5">
+        <div class="col col-lg-4 p-5">
           <div>
             I attended the handmade pottery workshop of two hours with my
             boyfriend and had such a fun time. The teacher was very sweet, she
@@ -327,7 +329,7 @@
           </div>
           <div class="mt-3">Kashish Gupta</div>
         </div>
-        <div class="col p-5">
+        <div class="col p-5 d-none d-lg-block">
           <div>
             An amazing stress buster and weekend chill. We had a 2hr workshop
             session at Clay7Studio and we enjoyed our time like nothing else. We
@@ -337,7 +339,7 @@
           </div>
           <div class="mt-3">Shruti Saxena</div>
         </div>
-        <div class="col p-5">
+        <div class="col p-5 d-none d-lg-block">
           <div>
             I recently visited Clay7 Studio, and it was an absolutely delightful
             experience! The pottery session was not only fun but also incredibly
@@ -385,15 +387,15 @@
 
     <div class="container-fluid p-0 m-0 bg-light">
       <div class="row p-5">
-        <div class="col-2 mx-3">
+        <div class="col-12 col-lg-2 p-3 m-0">
           <img
             src="imgs/logo-no-bg.png"
             class="img-fluid"
-            style="width: 100%"
+            style="width: 100%; height: 10vh"
           />
         </div>
-        <div class="col mx-3">
-          <div class="fs-5 my-3" style="font-family: 'Playfair Display', serif">
+        <div class="col-12 col-lg-4 p-3 m-0">
+          <div class="fs-5 mb-3" style="font-family: 'Playfair Display', serif">
             Address
           </div>
           <div>
@@ -401,21 +403,21 @@
             Jewellers, Shankarrao Kirloskar Marg, off Karve Road, Erandwane,
             Pune, Maharashtra, 411004
           </div>
-          <div class="my-3">
+          <div class="mt-3">
             Find Us on Maps:
             <a href="https://maps.app.goo.gl/49f99g67BMX7JNSN9">link</a>
           </div>
         </div>
-        <div class="col mx-3">
-          <div class="fs-5 my-3" style="font-family: 'Playfair Display', serif">
+        <div class="col-12 col-lg-3 p-3 m-0">
+          <div class="fs-5 mb-3" style="font-family: 'Playfair Display', serif">
             Opening Hours
           </div>
           <div>Tue to Fri - 10am to 6pm</div>
           <div>Sat to Sun - 6pm to 8pm</div>
           <div>Holiday on Monday</div>
         </div>
-        <div class="col mx-3">
-          <div class="fs-5 my-3" style="font-family: 'Playfair Display', serif">
+        <div class="col-12 col-lg-3 p-3 m-0">
+          <div class="fs-5 mb-3" style="font-family: 'Playfair Display', serif">
             Contact
           </div>
           <div class="d-flex align-items-center">
